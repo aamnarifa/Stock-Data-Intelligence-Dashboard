@@ -126,16 +126,7 @@ npm run dev
 👉 Frontend runs at:
 http://localhost:5173
 
----
 
-```md
-## 📸 Dashboard Preview
-
-(Add a screenshot of your dashboard here)
-
-![Dashboard](screenshot.png)
-
----
 
 ## 🧠 Insights Logic
 
