@@ -1,0 +1,5 @@
+fastapi[all]>=0.100.0
+uvicorn>=0.23.0
+yfinance>=0.2.18
+pandas>=2.0.0
+numpy>=1.24.0
