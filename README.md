@@ -128,13 +128,12 @@ http://localhost:5173
 
 ---
 
+```md
 ## 📸 Dashboard Preview
 
 (Add a screenshot of your dashboard here)
 
-```md
 ![Dashboard](screenshot.png)
-```
 
 ---
 
