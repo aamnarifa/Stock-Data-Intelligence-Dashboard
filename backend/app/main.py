@@ -8,16 +8,15 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# Configure CORS for React frontend (Vite defaults)
+# CORS FIX
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"], 
+    allow_origins=["*"],   # <-- change here
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Connect routing
 app.include_router(stocks.router)
 
 @app.get("/")

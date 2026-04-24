@@ -1,23 +1,19 @@
-# -----------------
-# Node (Frontend)
-# -----------------
-frontend/node_modules/
-frontend/dist/
+# Python
+venv/
+__pycache__/
+*.pyc
 
-# -----------------
-# Python (Backend)
-# -----------------
+# Backend
 backend/venv/
 backend/__pycache__/
-backend/*.pyc
 
-# -----------------
-# Environment files
-# -----------------
+# Frontend
+node_modules/
+dist/
+
+# Env
 .env
 
-# -----------------
-# OS files
-# -----------------
+# OS
 .DS_Store
 Thumbs.db
